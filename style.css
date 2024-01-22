@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+
+    --linear: linear-gradient(90deg, #FFF 1.32%, rgba(255, 255, 255, 0.34) 51.78%, #FFF 98.89%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1B0926;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26.82px;
+    overflow: hidden;
+}
+.form-main{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form-cont{
+    width: 100%;
+    max-width: 406px;
+    position: relative;
+    z-index: 1;
+}
+
+.form-cont .box{
+    border-radius: 24px;
+    border: 1.3px solid #fff;
+    padding: 40px 50px;
+    backdrop-filter: blur(17px);
+    background-image: url("Group 4 (1).svg");
+    background-size: 800px;
+    background-position: center;
+}
+.form-cont h3{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.82px;
+    letter-spacing: 3.63px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    background: linear-gradient(90deg, #FFF 1.96%, rgba(255, 255, 255, 0.79) 103.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: overlay;
+}
+.form-cont form{
+      margin-top: 45px;
+}
+.form-cont .input-box{
+    margin: 45px 0;
+}
+.form-cont .input-text{
+    display: block;
+    height: 45px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    color: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: 16px;
+    opacity: 0.8;
+    background: linear-gradient(84deg, #FFF 6.16%, rgba(255, 255, 255, 0.00) 168.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: overlay;
+}
+.form-cont .button{
+    height: 58px;
+    width: 100%;
+    cursor:pointer;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    user-select: none;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: inherit;
+    color: inherit;
+    line-height: 26.82px;
+    letter-spacing: 4.73px;
+    opacity: 0.8;
+    background: linear-gradient(90deg, #FFF 1.96%, rgba(255, 255, 255, 0.13) 103.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-cont .circle-1{
+    position: absolute;
+    background: linear-gradient(180deg, #FC00FF 0%, #00DBDE 100%);
+    width: 291.304px;
+    height: 289.585px;
+    transform: rotate(19.315deg);
+    border-radius: 291.304px;
+    opacity: 0.9;
+    top: -33px;
+    left: -121.78px;
+}
+.form-cont .circle-2{
+    position: absolute;
+    background: linear-gradient(180deg, #FFCC70 0%, #C850C0 100%);
+    width: 90px;
+    height: 90px;
+    transform: rotate(101.179deg);
+    border-radius: 291.304px;
+    opacity: 0.6;
+    top: -30.05px;
+    left: 300.6px;
+}
+.form-cont .circle-3{
+    position: absolute;
+    background: radial-gradient(50% 50% at 50% 50%, #26CDFD 0%, #B721FF 100%);
+    width: 178px;
+    height: 178px;
+    transform: rotate(101.179deg);
+    border-radius: 291.304px;
+    opacity: 0.8;
+    top: 250.6px;
+    left: 300.86px;
+}
+.form-main h4{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    letter-spacing: 1.98px;
+    text-transform: uppercase;
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.81) 0.94%, rgba(205, 100, 255, 0.74) 118.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 281px;
+    right: 520px;
+}
